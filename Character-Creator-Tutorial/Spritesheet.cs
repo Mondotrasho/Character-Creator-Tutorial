@@ -47,6 +47,7 @@ namespace CharacterCreator
         {
             return base.ToString() + ": " + path.ToString();
         }
+        
     }
 }
 

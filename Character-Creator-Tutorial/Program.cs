@@ -3,7 +3,9 @@ using System.IO;
 using System.Collections.Generic;
 namespace CharacterCreator
 {
- 
+    using System.ComponentModel;
+
+    using Character_Creator_Tutorial;
 
     using static Console;
 
@@ -11,6 +13,7 @@ namespace CharacterCreator
     {
         static Spritesheet spritesheet = null;
         static Character character = null;
+        static Container_stuff test = null;
         static List<Character> characters = new List<Character>();
 
         static void Main(string[] args)
@@ -49,7 +52,12 @@ namespace CharacterCreator
             {
                 Console.WriteLine(character.ToString());
             }
+           
+            var containerStuff = new Container_stuff();
+            containerStuff.ArrayExample(5);
             ReadKey();
+
         }
+
     }
 }

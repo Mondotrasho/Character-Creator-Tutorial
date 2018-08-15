@@ -21,6 +21,6 @@ namespace CharacterCreator
             return base.ToString() + "\n\tpath: \t" + spritesheet.path +
                    "\n\ttile coordinates: \t" + tileCoordinates.ToString();
         }
-
+        
     }
 }
